@@ -1,2 +1,0 @@
-# kumbang.github.io
-Kumbang
