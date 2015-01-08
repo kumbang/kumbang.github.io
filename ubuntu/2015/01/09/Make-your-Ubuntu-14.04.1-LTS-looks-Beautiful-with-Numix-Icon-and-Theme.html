@@ -6,12 +6,12 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Installing Jekyll on Ubuntu 14.04.1 LTS</title>
-  <meta name="description" content="Jekyll is a simple, blog-aware, static site generator. It takes a template directory containing raw text files in various formats, runs it through Markdown (...">
+  <title>Make your Ubuntu 14.04.1 LTS looks Beautiful with Numix Icon and Theme</title>
+  <meta name="description" content="">
 
 
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="http://kumbang.github.io/ubuntu/2015/01/08/Installing-Jekyll-on-Ubuntu-14.04.1-LTS.html">
+  <link rel="canonical" href="http://kumbang.github.io/ubuntu/2015/01/09/Make-your-Ubuntu-14.04.1-LTS-looks-Beautiful-with-Numix-Icon-and-Theme.html">
   <link rel="alternate" type="application/rss+xml" title="kumbang" href="http://kumbang.github.io/feed.xml" />
 </head>
 
@@ -138,52 +138,36 @@ transform="matrix(1.2338767,0,0,1.2338767,87.412282,36.038142)" />
         <div class="post">
 
   <header class="post-header">
-    <h1 class="post-title">Installing Jekyll on Ubuntu 14.04.1 LTS</h1>
-    <p class="post-meta">Jan 8, 2015</p>
+    <h1 class="post-title">Make your Ubuntu 14.04.1 LTS looks Beautiful with Numix Icon and Theme</h1>
+    <p class="post-meta">Jan 9, 2015</p>
   </header>
 
   <article class="post-content">
-    <p><a href="http://jekyllrb.com/">Jekyll</a> is a simple, blog-aware, static site generator. It takes a template directory containing raw text files in various formats, runs it through Markdown (or Textile) and Liquid converters, and spits out a complete, ready-to-publish static website suitable for serving with your favorite web server.</p>
+    <p><img alt="My Ubuntu Screenshot" src="/assets/My Ubuntu.png" /></p>
 
-<h3>Installing Jekyll</h3>
+<p>I love Ubuntu 14.04.1 and all the <a href="https://numixproject.org/">Numix Project</a>’s works like Numix Circle and Numix Dark GTK Theme.</p>
 
-<p><b>1. Installing Ruby and RubyGems</b></p>
+<h3>Installing Numix Project Theme and Icon</h3>
 
-<div class="highlight"><pre><code class="language-bash" data-lang="bash">sudo apt-get install ruby ruby-dev make</code></pre></div>
+<p><b>1. Add Numix Project’s PPA</b></p>
 
-<p><b>2. Installing NodeJs</b></p>
+<div class="highlight"><pre><code class="language-bash" data-lang="bash">sudo add-apt-repository ppa:numix/ppa</code></pre></div>
 
-<div class="highlight"><pre><code class="language-bash" data-lang="bash">sudo apt-get install nodejs</code></pre></div>
+<p><b>2. Update package</b></p>
 
-<p><b>3. Installing Jekyll via RubyGems</b></p>
+<div class="highlight"><pre><code class="language-bash" data-lang="bash">sudo apt-get update</code></pre></div>
 
-<div class="highlight"><pre><code class="language-bash" data-lang="bash">sudo gem install jekyll</code></pre></div>
+<p><b>3. Install the Theme and Icons</b></p>
 
-<p><b>4. Check your Jekyll Installation</b></p>
+<div class="highlight"><pre><code class="language-bash" data-lang="bash">sudo apt-get install numix-icon-theme-circle <span class="o">&amp;&amp;</span> sudo apt-get install numix-gtk-theme</code></pre></div>
 
-<div class="highlight"><pre><code class="language-bash" data-lang="bash">jekyll -v</code></pre></div>
+<h3>Set up the Themes and Icons</h3>
 
-<p>If your terminal return something like <code>jekyll 2.5.3</code>. Your Jekyll Installation is succesful. The version may be different. For the latest version checkout at <a href="http://jekyllrb.com/">Jekyll</a>.</p>
+<p><b>1. Installing Unity Tweak Tool</b></p>
 
-<h3>Quick Start Guide</h3>
+<div class="highlight"><pre><code class="language-bash" data-lang="bash">sudo apt-get install unity-tweak-tool</code></pre></div>
 
-<p><b>1. Change directory to Desktop</b></p>
-
-<div class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nb">cd </span>Desktop</code></pre></div>
-
-<p><b>2. Create the sites using Jekyll and name the folder to kumbang</b></p>
-
-<div class="highlight"><pre><code class="language-bash" data-lang="bash">jekyll new kumbang</code></pre></div>
-
-<p><b>3. Change directory to kumbang</b></p>
-
-<div class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nb">cd </span>kumbang</code></pre></div>
-
-<p><b>4. Run the Sites</b></p>
-
-<div class="highlight"><pre><code class="language-bash" data-lang="bash">jekyll serve</code></pre></div>
-
-<p>Now, you can browse your sites using browser at <code>http://127.0.0.1:4000/</code> To learn more about Jekyll, checkout Jekyll <a href="http://jekyllrb.com/docs/home/">Documentation</a>.</p>
+<p>Once you already install it. You can launch it by search using Dash and type <code>unity tweak tool</code>. Now you can change the theme and icon by go to <b>Appearances &gt; Theme &gt; Numix</b> and <b>Appearances &gt; Icons &gt; Numix-circle</b>.</p>
 
   </article>
 

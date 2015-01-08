@@ -14,7 +14,7 @@ body {
   font-family: Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 1.6;
-  font-weight: 300;
+  font-weight: 400;
   color: #555;
   background-color: #fff;
   -webkit-text-size-adjust: 100%; }
@@ -146,7 +146,7 @@ pre {
  * Site header
  */
 .site-header {
-  margin-top: 10px;
+  margin-top: 15px;
   min-height: 56px;
   position: relative; }
 

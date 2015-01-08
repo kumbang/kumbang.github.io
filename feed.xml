@@ -5,9 +5,74 @@
     <description></description>
     <link>http://kumbang.github.io/</link>
     <atom:link href="http://kumbang.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 08 Jan 2015 14:17:27 +0800</pubDate>
-    <lastBuildDate>Thu, 08 Jan 2015 14:17:27 +0800</lastBuildDate>
+    <pubDate>Thu, 08 Jan 2015 19:47:44 +0800</pubDate>
+    <lastBuildDate>Thu, 08 Jan 2015 19:47:44 +0800</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>Install youtube-dl on Ubuntu 14.04.1 LTS</title>
+        <description>&lt;p&gt;&lt;img alt=&quot;Using youtube-dl&quot; src=&quot;/assets/youtube-dl.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://rg3.github.io/youtube-dl&quot;&gt;youtube-dl&lt;/a&gt; is a small command-line program to download videos from YouTube, Vimeo, dailymotion and a few more &lt;a href=&quot;http://rg3.github.io/youtube-dl/supportedsites.html&quot;&gt;sites&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3&gt;1. Download and Install youtube-dl&lt;/h3&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;sudo wget https://yt-dl.org/downloads/latest/youtube-dl -O /usr/local/bin/youtube-dl&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;h3&gt;2. Change permission&lt;/h3&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;sudo chmod a+x /usr/local/bin/youtube-dl&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;h3&gt;3. Test it&lt;/h3&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;youtube-dl http://yourlinkhere&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+</description>
+        <pubDate>Fri, 09 Jan 2015 03:40:00 +0800</pubDate>
+        <link>http://kumbang.github.io/ubuntu/2015/01/09/Install-youtube-dl-on-Ubuntu-14.04.1-LTS.html</link>
+        <guid isPermaLink="true">http://kumbang.github.io/ubuntu/2015/01/09/Install-youtube-dl-on-Ubuntu-14.04.1-LTS.html</guid>
+        
+        
+        <category>ubuntu</category>
+        
+      </item>
+    
+      <item>
+        <title>Make your Ubuntu 14.04.1 LTS looks Beautiful with Numix Icon and Theme</title>
+        <description>&lt;p&gt;&lt;img alt=&quot;My Ubuntu Screenshot&quot; src=&quot;/assets/My Ubuntu.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I love Ubuntu 14.04.1 and all the &lt;a href=&quot;https://numixproject.org/&quot;&gt;Numix Project&lt;/a&gt;’s works like Numix Circle and Numix Dark GTK Theme.&lt;/p&gt;
+
+&lt;h3&gt;Installing Numix Project Theme and Icon&lt;/h3&gt;
+
+&lt;p&gt;&lt;b&gt;1. Add Numix Project’s PPA&lt;/b&gt;&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;sudo add-apt-repository ppa:numix/ppa&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;b&gt;2. Update package&lt;/b&gt;&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;sudo apt-get update&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;b&gt;3. Install the Theme and Icons&lt;/b&gt;&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;sudo apt-get install numix-icon-theme-circle &lt;span class=&quot;o&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt; sudo apt-get install numix-gtk-theme&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;h3&gt;Set up the Themes and Icons&lt;/h3&gt;
+
+&lt;p&gt;&lt;b&gt;1. Installing Unity Tweak Tool&lt;/b&gt;&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;sudo apt-get install unity-tweak-tool&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Once you already install it. You can launch it by search using Dash and type &lt;code&gt;unity tweak tool&lt;/code&gt;. Now you can change the theme and icon by go to &lt;b&gt;Appearances &amp;gt; Theme &amp;gt; Numix&lt;/b&gt; and &lt;b&gt;Appearances &amp;gt; Icons &amp;gt; Numix-circle&lt;/b&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 09 Jan 2015 03:07:00 +0800</pubDate>
+        <link>http://kumbang.github.io/ubuntu/2015/01/09/Make-your-Ubuntu-14.04.1-LTS-looks-Beautiful-with-Numix-Icon-and-Theme.html</link>
+        <guid isPermaLink="true">http://kumbang.github.io/ubuntu/2015/01/09/Make-your-Ubuntu-14.04.1-LTS-looks-Beautiful-with-Numix-Icon-and-Theme.html</guid>
+        
+        
+        <category>ubuntu</category>
+        
+      </item>
     
       <item>
         <title>Installing Jekyll on Ubuntu 14.04.1 LTS</title>
@@ -30,6 +95,8 @@
 &lt;p&gt;&lt;b&gt;4. Check your Jekyll Installation&lt;/b&gt;&lt;/p&gt;
 
 &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;jekyll -v&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;If your terminal return something like &lt;code&gt;jekyll 2.5.3&lt;/code&gt;. Your Jekyll Installation is succesful. The version may be different. For the latest version checkout at &lt;a href=&quot;http://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt;.&lt;/p&gt;
 
 &lt;h3&gt;Quick Start Guide&lt;/h3&gt;
 

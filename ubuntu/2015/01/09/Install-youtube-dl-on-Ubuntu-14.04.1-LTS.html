@@ -6,12 +6,12 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Installing Jekyll on Ubuntu 14.04.1 LTS</title>
-  <meta name="description" content="Jekyll is a simple, blog-aware, static site generator. It takes a template directory containing raw text files in various formats, runs it through Markdown (...">
+  <title>Install youtube-dl on Ubuntu 14.04.1 LTS</title>
+  <meta name="description" content="">
 
 
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="http://kumbang.github.io/ubuntu/2015/01/08/Installing-Jekyll-on-Ubuntu-14.04.1-LTS.html">
+  <link rel="canonical" href="http://kumbang.github.io/ubuntu/2015/01/09/Install-youtube-dl-on-Ubuntu-14.04.1-LTS.html">
   <link rel="alternate" type="application/rss+xml" title="kumbang" href="http://kumbang.github.io/feed.xml" />
 </head>
 
@@ -138,52 +138,27 @@ transform="matrix(1.2338767,0,0,1.2338767,87.412282,36.038142)" />
         <div class="post">
 
   <header class="post-header">
-    <h1 class="post-title">Installing Jekyll on Ubuntu 14.04.1 LTS</h1>
-    <p class="post-meta">Jan 8, 2015</p>
+    <h1 class="post-title">Install youtube-dl on Ubuntu 14.04.1 LTS</h1>
+    <p class="post-meta">Jan 9, 2015</p>
   </header>
 
   <article class="post-content">
-    <p><a href="http://jekyllrb.com/">Jekyll</a> is a simple, blog-aware, static site generator. It takes a template directory containing raw text files in various formats, runs it through Markdown (or Textile) and Liquid converters, and spits out a complete, ready-to-publish static website suitable for serving with your favorite web server.</p>
+    <p><img alt="Using youtube-dl" src="/assets/youtube-dl.png" /></p>
 
-<h3>Installing Jekyll</h3>
+<p><a href="http://rg3.github.io/youtube-dl">youtube-dl</a> is a small command-line program to download videos from YouTube, Vimeo, dailymotion and a few more <a href="http://rg3.github.io/youtube-dl/supportedsites.html">sites</a>.</p>
 
-<p><b>1. Installing Ruby and RubyGems</b></p>
+<h3>1. Download and Install youtube-dl</h3>
 
-<div class="highlight"><pre><code class="language-bash" data-lang="bash">sudo apt-get install ruby ruby-dev make</code></pre></div>
+<div class="highlight"><pre><code class="language-bash" data-lang="bash">sudo wget https://yt-dl.org/downloads/latest/youtube-dl -O /usr/local/bin/youtube-dl</code></pre></div>
 
-<p><b>2. Installing NodeJs</b></p>
+<h3>2. Change permission</h3>
 
-<div class="highlight"><pre><code class="language-bash" data-lang="bash">sudo apt-get install nodejs</code></pre></div>
+<div class="highlight"><pre><code class="language-bash" data-lang="bash">sudo chmod a+x /usr/local/bin/youtube-dl</code></pre></div>
 
-<p><b>3. Installing Jekyll via RubyGems</b></p>
+<h3>3. Test it</h3>
 
-<div class="highlight"><pre><code class="language-bash" data-lang="bash">sudo gem install jekyll</code></pre></div>
+<div class="highlight"><pre><code class="language-bash" data-lang="bash">youtube-dl http://yourlinkhere</code></pre></div>
 
-<p><b>4. Check your Jekyll Installation</b></p>
-
-<div class="highlight"><pre><code class="language-bash" data-lang="bash">jekyll -v</code></pre></div>
-
-<p>If your terminal return something like <code>jekyll 2.5.3</code>. Your Jekyll Installation is succesful. The version may be different. For the latest version checkout at <a href="http://jekyllrb.com/">Jekyll</a>.</p>
-
-<h3>Quick Start Guide</h3>
-
-<p><b>1. Change directory to Desktop</b></p>
-
-<div class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nb">cd </span>Desktop</code></pre></div>
-
-<p><b>2. Create the sites using Jekyll and name the folder to kumbang</b></p>
-
-<div class="highlight"><pre><code class="language-bash" data-lang="bash">jekyll new kumbang</code></pre></div>
-
-<p><b>3. Change directory to kumbang</b></p>
-
-<div class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nb">cd </span>kumbang</code></pre></div>
-
-<p><b>4. Run the Sites</b></p>
-
-<div class="highlight"><pre><code class="language-bash" data-lang="bash">jekyll serve</code></pre></div>
-
-<p>Now, you can browse your sites using browser at <code>http://127.0.0.1:4000/</code> To learn more about Jekyll, checkout Jekyll <a href="http://jekyllrb.com/docs/home/">Documentation</a>.</p>
 
   </article>
 
