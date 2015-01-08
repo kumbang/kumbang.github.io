@@ -5,9 +5,31 @@
     <description></description>
     <link>http://kumbang.github.io/</link>
     <atom:link href="http://kumbang.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 08 Jan 2015 19:47:44 +0800</pubDate>
-    <lastBuildDate>Thu, 08 Jan 2015 19:47:44 +0800</lastBuildDate>
+    <pubDate>Thu, 08 Jan 2015 20:58:44 +0800</pubDate>
+    <lastBuildDate>Thu, 08 Jan 2015 20:58:44 +0800</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>How to remove Status Bar from Oracle's Virtual Box Window on Ubuntu 14.04.1 LTS</title>
+        <description>&lt;p&gt;&lt;img alt=&quot;Hide Status Bar on Oracle's VirtualBox Window&quot; src=&quot;/assets/Hide Status Bar.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Just a very simple step to hide Status Bar on Oracle’s VirtualBox on Ubuntu 14.04.1 LTS. Just open your terminal and type in following command&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;/usr/bin/VBoxManage setextradata global GUI/Customizations noStatusBar&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;If you would like to restore the Status Bar. Just type in following command&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;/usr/bin/VBoxManage setextradata global GUI/Customizations StatusBar&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+</description>
+        <pubDate>Fri, 09 Jan 2015 04:49:00 +0800</pubDate>
+        <link>http://kumbang.github.io/ubuntu/2015/01/09/How-to-remove-Status-Bar-from-Oracle's-Virtual-Box-Window-on-Ubuntu-14.04.1-LTS.html</link>
+        <guid isPermaLink="true">http://kumbang.github.io/ubuntu/2015/01/09/How-to-remove-Status-Bar-from-Oracle's-Virtual-Box-Window-on-Ubuntu-14.04.1-LTS.html</guid>
+        
+        
+        <category>ubuntu</category>
+        
+      </item>
     
       <item>
         <title>Install youtube-dl on Ubuntu 14.04.1 LTS</title>
@@ -41,7 +63,7 @@
         <title>Make your Ubuntu 14.04.1 LTS looks Beautiful with Numix Icon and Theme</title>
         <description>&lt;p&gt;&lt;img alt=&quot;My Ubuntu Screenshot&quot; src=&quot;/assets/My Ubuntu.png&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;I love Ubuntu 14.04.1 and all the &lt;a href=&quot;https://numixproject.org/&quot;&gt;Numix Project&lt;/a&gt;’s works like Numix Circle and Numix Dark GTK Theme.&lt;/p&gt;
+&lt;p&gt;I love Ubuntu 14.04.1 and all the &lt;a href=&quot;https://numixproject.org/&quot;&gt;Numix Project&lt;/a&gt;’s works like Numix Circle and Numix Dark GTK Theme. Here the easy guide to install Numix Project’s Themes and Icons on your Ubuntu.&lt;/p&gt;
 
 &lt;h3&gt;Installing Numix Project Theme and Icon&lt;/h3&gt;
 
@@ -53,7 +75,7 @@
 
 &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;sudo apt-get update&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
-&lt;p&gt;&lt;b&gt;3. Install the Theme and Icons&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;3. Install Numix Dark and Numix Circle&lt;/b&gt;&lt;/p&gt;
 
 &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;sudo apt-get install numix-icon-theme-circle &lt;span class=&quot;o&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt; sudo apt-get install numix-gtk-theme&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
