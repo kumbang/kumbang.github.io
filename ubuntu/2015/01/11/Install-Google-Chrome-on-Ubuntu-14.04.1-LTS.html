@@ -6,11 +6,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Install Jekyll on Ubuntu 14.04.1 LTS</title>
+  <title>Install Google Chrome on Ubuntu 14.04.1 LTS</title>
   <meta name="description" content="">
 
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="http://kumbang.github.io/ubuntu/2015/01/08/Install-Jekyll-on-Ubuntu-14.04.1-LTS.html">
+  <link rel="canonical" href="http://kumbang.github.io/ubuntu/2015/01/11/Install-Google-Chrome-on-Ubuntu-14.04.1-LTS.html">
   <link rel="alternate" type="application/rss+xml" title="kumbang" href="http://kumbang.github.io/feed.xml" />
 </head>
 
@@ -137,54 +137,37 @@ transform="matrix(1.2338767,0,0,1.2338767,87.412282,36.038142)" />
         <div class="post">
 
   <header class="post-header">
-    <h1 class="post-title">Install Jekyll on Ubuntu 14.04.1 LTS</h1>
-    <p class="post-meta">Jan 8, 2015 • Khai Rahman</p>
+    <h1 class="post-title">Install Google Chrome on Ubuntu 14.04.1 LTS</h1>
+    <p class="post-meta">Jan 11, 2015 • Khai Rahman</p>
   </header>
 
   <article class="post-content">
-    <p><img alt="Sass Source Code" src="/assets/Jekyll.png" /></p>
+    <p><img alt="Google Chrome" src="/assets/Google Chrome.png" /></p>
 
-<p><a href="http://jekyllrb.com/">Jekyll</a> is a simple, blog-aware, static site generator. It takes a template directory containing raw text files in various formats, runs it through Markdown (or Textile) and Liquid converters, and spits out a complete, ready-to-publish static website suitable for serving with your favorite web server.</p>
+<p>A very simple step to install Google Chrome from terminal. Just open your terminal <code>Ctrl + Alt + T</code> and type in following command to install Google Chrome.</p>
 
-<h3>Installing Jekyll</h3>
+<p>If you don’t know what architechture of your operating system. You can check it out by typing <code>uname -i</code> on your terminal.</p>
 
-<p><b>1. Installing Ruby and RubyGems</b></p>
+<h3>64-Bit Installation</h3>
 
-<div class="highlight"><pre><code class="language-bash" data-lang="bash">sudo apt-get install ruby ruby-dev make</code></pre></div>
+<p><b>1. Download Latest Google Chrome</b></p>
 
-<p><b>2. Installing NodeJs</b></p>
+<div class="highlight"><pre><code class="language-bash" data-lang="bash">wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb</code></pre></div>
 
-<div class="highlight"><pre><code class="language-bash" data-lang="bash">sudo apt-get install nodejs</code></pre></div>
+<p><b>2. Install Google Chrome</b></p>
 
-<p><b>3. Installing Jekyll via RubyGems</b></p>
+<div class="highlight"><pre><code class="language-bash" data-lang="bash">sudo dpkg -i google-chrome*.deb</code></pre></div>
 
-<div class="highlight"><pre><code class="language-bash" data-lang="bash">sudo gem install jekyll</code></pre></div>
+<h3>32-Bit Installation</h3>
 
-<p><b>4. Check your Jekyll Installation</b></p>
+<p><b>1. Download Latest Google Chrome</b></p>
 
-<div class="highlight"><pre><code class="language-bash" data-lang="bash">jekyll -v</code></pre></div>
+<div class="highlight"><pre><code class="language-bash" data-lang="bash">wget https://dl.google.com/linux/direct/google-chrome-stable_current_i386.deb</code></pre></div>
 
-<p>If your terminal return something like <code>jekyll 2.5.3</code>. Your Jekyll Installation is succesful. The version may be different. For the latest version checkout at <a href="http://jekyllrb.com/">Jekyll</a>.</p>
+<p><b>2. Install Google Chrome</b></p>
 
-<h3>Quick Start Guide</h3>
+<div class="highlight"><pre><code class="language-bash" data-lang="bash">sudo dpkg -i google-chrome*.deb</code></pre></div>
 
-<p><b>1. Change directory to Desktop</b></p>
-
-<div class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nb">cd </span>Desktop</code></pre></div>
-
-<p><b>2. Create the sites using Jekyll and name the folder to kumbang</b></p>
-
-<div class="highlight"><pre><code class="language-bash" data-lang="bash">jekyll new kumbang</code></pre></div>
-
-<p><b>3. Change directory to kumbang</b></p>
-
-<div class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nb">cd </span>kumbang</code></pre></div>
-
-<p><b>4. Run the Sites</b></p>
-
-<div class="highlight"><pre><code class="language-bash" data-lang="bash">jekyll serve</code></pre></div>
-
-<p>Now, you can browse your sites using browser at <code>http://127.0.0.1:4000/</code> or <code>http://localhost:4000</code>. To learn more about Jekyll, checkout Jekyll <a href="http://jekyllrb.com/docs/home/">Documentation</a>.</p>
 
   </article>
 
